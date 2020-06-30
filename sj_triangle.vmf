@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "292"
+	"mapversion" "293"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -104,7 +104,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "292"
+	"mapversion" "293"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -41817,7 +41817,7 @@ entity
 	"StartDisabled" "0"
 	"stop" "1"
 	"target" "b1"
-	"track_number" "0"
+	"track_number" "1"
 	solid
 	{
 		"id" "14278"
@@ -47662,7 +47662,7 @@ entity
 	"StartDisabled" "0"
 	"stop" "1"
 	"target" "b2"
-	"track_number" "0"
+	"track_number" "2"
 	solid
 	{
 		"id" "15919"
@@ -82736,8 +82736,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1146 -1229.06 1206.44]"
-		"look" "[1121.85 -1173.77 1111.36]"
+		"position" "[1592.23 -406.518 835.605]"
+		"look" "[1601.74 -331.189 752.454]"
 	}
 }
 cordon
