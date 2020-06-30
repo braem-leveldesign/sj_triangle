@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "279"
+	"mapversion" "280"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -98,7 +98,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "279"
+	"mapversion" "280"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -24375,11 +24375,14 @@ entity
 entity
 {
 	"id" "204"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "0 1792 64"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "1"
+	"track_number" "0"
 	solid
 	{
 		"id" "805"
@@ -24544,11 +24547,14 @@ entity
 entity
 {
 	"id" "236"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1 944 831.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "1"
+	"track_number" "0"
 	solid
 	{
 		"id" "230"
@@ -24713,11 +24719,14 @@ entity
 entity
 {
 	"id" "270"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1 2480 1151.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "1"
+	"track_number" "0"
 	solid
 	{
 		"id" "271"
@@ -24882,11 +24891,14 @@ entity
 entity
 {
 	"id" "300"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "0 240 800.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "1"
+	"track_number" "0"
 	solid
 	{
 		"id" "294"
@@ -24975,11 +24987,14 @@ entity
 entity
 {
 	"id" "1015"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-1216 384 -32"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "2"
+	"track_number" "0"
 	solid
 	{
 		"id" "946"
@@ -25084,11 +25099,14 @@ entity
 entity
 {
 	"id" "1086"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-847.5 1328 2640"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "2"
+	"track_number" "0"
 	solid
 	{
 		"id" "1087"
@@ -25177,11 +25195,14 @@ entity
 entity
 {
 	"id" "1296"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-1744 2848 2016.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "2"
+	"track_number" "0"
 	solid
 	{
 		"id" "1289"
@@ -25270,11 +25291,14 @@ entity
 entity
 {
 	"id" "1339"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-2080 2864 960"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "2"
+	"track_number" "0"
 	solid
 	{
 		"id" "1335"
@@ -25363,11 +25387,14 @@ entity
 entity
 {
 	"id" "1526"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1 3216 2303.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "1"
+	"track_number" "0"
 	solid
 	{
 		"id" "1527"
@@ -25532,11 +25559,14 @@ entity
 entity
 {
 	"id" "1592"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-1584.5 1328 2800"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "2"
+	"track_number" "0"
 	solid
 	{
 		"id" "1593"
@@ -25625,11 +25655,14 @@ entity
 entity
 {
 	"id" "1706"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-1216 2352 1648"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "2"
+	"track_number" "0"
 	solid
 	{
 		"id" "1707"
@@ -26558,11 +26591,14 @@ entity
 entity
 {
 	"id" "5219"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-2336 384 1856.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "3"
+	"track_number" "0"
 	solid
 	{
 		"id" "5195"
@@ -27009,11 +27045,14 @@ entity
 entity
 {
 	"id" "5543"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-2336 160 960.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "3"
+	"track_number" "0"
 	solid
 	{
 		"id" "5813"
@@ -27330,11 +27369,14 @@ entity
 entity
 {
 	"id" "5665"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-2336 80 1024.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "3"
+	"track_number" "0"
 	solid
 	{
 		"id" "5660"
@@ -27423,11 +27465,14 @@ entity
 entity
 {
 	"id" "6007"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-2336 -704 960.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "3"
+	"track_number" "0"
 	solid
 	{
 		"id" "5991"
@@ -27570,11 +27615,14 @@ entity
 entity
 {
 	"id" "6037"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-2336 160 -127.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "3"
+	"track_number" "0"
 	solid
 	{
 		"id" "6034"
@@ -27663,11 +27711,14 @@ entity
 entity
 {
 	"id" "6230"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-2336 672 2752.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "3"
+	"track_number" "0"
 	solid
 	{
 		"id" "6206"
@@ -28136,11 +28187,14 @@ entity
 entity
 {
 	"id" "6325"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-2336 160 -127.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "3"
+	"track_number" "0"
 	solid
 	{
 		"id" "6321"
@@ -34368,11 +34422,14 @@ entity
 entity
 {
 	"id" "8279"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3168 -448 1184.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "8275"
@@ -34450,11 +34507,14 @@ entity
 entity
 {
 	"id" "8293"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3120 -464 1728.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "8289"
@@ -34532,11 +34592,14 @@ entity
 entity
 {
 	"id" "8307"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3168 -480 2336.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "8303"
@@ -34614,11 +34677,14 @@ entity
 entity
 {
 	"id" "8327"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3216 -464 2880.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "8320"
@@ -34696,11 +34762,14 @@ entity
 entity
 {
 	"id" "8359"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3168 320 3104.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "8354"
@@ -34789,11 +34858,14 @@ entity
 entity
 {
 	"id" "8507"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3168 336 3568"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "8499"
@@ -35108,11 +35180,14 @@ entity
 entity
 {
 	"id" "9049"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3120 1104 2880.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "9050"
@@ -35190,11 +35265,14 @@ entity
 entity
 {
 	"id" "9052"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3168 1120 2336.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "9053"
@@ -35272,11 +35350,14 @@ entity
 entity
 {
 	"id" "9056"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3216 1104 1728.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "9057"
@@ -35354,11 +35435,14 @@ entity
 entity
 {
 	"id" "9059"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3168 1088 1184.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "9060"
@@ -35436,11 +35520,14 @@ entity
 entity
 {
 	"id" "9387"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3168 1104 336"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "9380"
@@ -35529,11 +35616,14 @@ entity
 entity
 {
 	"id" "9409"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3168 -464 336"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "9410"
@@ -35707,11 +35797,14 @@ entity
 entity
 {
 	"id" "10968"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3168 1536 584"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "10960"
@@ -35789,11 +35882,14 @@ entity
 entity
 {
 	"id" "10987"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-2688 2864 1160"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "3"
+	"track_number" "0"
 	solid
 	{
 		"id" "10988"
@@ -35956,11 +36052,14 @@ entity
 entity
 {
 	"id" "11023"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-2336 1168 104"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "11024"
@@ -36123,11 +36222,14 @@ entity
 entity
 {
 	"id" "11050"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "0 3872 3080"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "2"
+	"track_number" "0"
 	solid
 	{
 		"id" "11051"
@@ -36456,11 +36558,14 @@ entity
 entity
 {
 	"id" "12139"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4160 1056 2976.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12135"
@@ -36549,11 +36654,14 @@ entity
 entity
 {
 	"id" "12165"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3872 256 2976.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12159"
@@ -36631,11 +36739,14 @@ entity
 entity
 {
 	"id" "12184"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4448 256 2976.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12185"
@@ -36713,11 +36824,14 @@ entity
 entity
 {
 	"id" "12208"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4160 256 2176.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12205"
@@ -36795,11 +36909,14 @@ entity
 entity
 {
 	"id" "12224"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4160 256 800.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12225"
@@ -36877,11 +36994,14 @@ entity
 entity
 {
 	"id" "12227"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4160 -768 1504.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12228"
@@ -36959,11 +37079,14 @@ entity
 entity
 {
 	"id" "12731"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4160 16 -32"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12728"
@@ -37052,11 +37175,14 @@ entity
 entity
 {
 	"id" "12798"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4448 1040 2016.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12794"
@@ -37134,11 +37260,14 @@ entity
 entity
 {
 	"id" "12811"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3872 1040 1408.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12808"
@@ -37216,11 +37345,14 @@ entity
 entity
 {
 	"id" "12830"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4528 1056 928.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12827"
@@ -37309,11 +37441,14 @@ entity
 entity
 {
 	"id" "12849"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-3792 1056 928.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12850"
@@ -37402,11 +37537,14 @@ entity
 entity
 {
 	"id" "12852"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4160 784 928.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12853"
@@ -37495,11 +37633,14 @@ entity
 entity
 {
 	"id" "12861"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4160 1312 928.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12862"
@@ -37588,11 +37729,14 @@ entity
 entity
 {
 	"id" "12870"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4240 1056 928.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12867"
@@ -37670,11 +37814,14 @@ entity
 entity
 {
 	"id" "12880"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4080 1056 928.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12881"
@@ -37752,11 +37899,14 @@ entity
 entity
 {
 	"id" "12909"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4160 1936 1824"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "12904"
@@ -37845,11 +37995,14 @@ entity
 entity
 {
 	"id" "12989"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4160 1056 520"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "6"
+	"track_number" "0"
 	solid
 	{
 		"id" "12990"
@@ -41521,11 +41674,14 @@ entity
 entity
 {
 	"id" "14291"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1008 2480 128"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14278"
@@ -41614,11 +41770,14 @@ entity
 entity
 {
 	"id" "14752"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "944 816 992.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14741"
@@ -41783,11 +41942,14 @@ entity
 entity
 {
 	"id" "14781"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1072 816 560.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14782"
@@ -41952,11 +42114,14 @@ entity
 entity
 {
 	"id" "14806"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "944 1328 560.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14807"
@@ -42121,11 +42286,14 @@ entity
 entity
 {
 	"id" "14826"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "944 2256 560.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14827"
@@ -42290,11 +42458,14 @@ entity
 entity
 {
 	"id" "14830"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "944 5216 560.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14831"
@@ -42459,11 +42630,14 @@ entity
 entity
 {
 	"id" "14857"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1072 2256 992.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14858"
@@ -42628,11 +42802,14 @@ entity
 entity
 {
 	"id" "14873"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1072 3040 992.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14874"
@@ -42797,11 +42974,14 @@ entity
 entity
 {
 	"id" "14890"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1024 1327.62 1008.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14878"
@@ -42966,11 +43146,14 @@ entity
 entity
 {
 	"id" "14917"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1008 1776 960.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14912"
@@ -43059,11 +43242,14 @@ entity
 entity
 {
 	"id" "14931"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "944 1776 1152.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14927"
@@ -43152,11 +43338,14 @@ entity
 entity
 {
 	"id" "14950"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1008 3040 576.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14942"
@@ -43245,11 +43434,14 @@ entity
 entity
 {
 	"id" "14968"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "944 3760 832"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14963"
@@ -43338,11 +43530,14 @@ entity
 entity
 {
 	"id" "14989"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1008 4528 576.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "14982"
@@ -43431,11 +43626,14 @@ entity
 entity
 {
 	"id" "15008"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1008 4528 960.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "15009"
@@ -43524,11 +43722,14 @@ entity
 entity
 {
 	"id" "15014"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1008 5216 1024.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "15015"
@@ -47318,11 +47519,14 @@ entity
 entity
 {
 	"id" "15918"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1776 2480 128"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "15919"
@@ -47411,11 +47615,14 @@ entity
 entity
 {
 	"id" "15921"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1712 816 992.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "15922"
@@ -47580,11 +47787,14 @@ entity
 entity
 {
 	"id" "15933"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1712 2256 560.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "15934"
@@ -47749,11 +47959,14 @@ entity
 entity
 {
 	"id" "15945"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1840 3040 992.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "15946"
@@ -47918,11 +48131,14 @@ entity
 entity
 {
 	"id" "15949"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1792 1328 1008.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "15950"
@@ -48087,11 +48303,14 @@ entity
 entity
 {
 	"id" "15953"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1776 1776 960.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "15954"
@@ -48180,11 +48399,14 @@ entity
 entity
 {
 	"id" "15962"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1712 3760 832"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "15963"
@@ -48273,11 +48495,14 @@ entity
 entity
 {
 	"id" "15965"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1776 4528 576.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "15966"
@@ -48366,11 +48591,14 @@ entity
 entity
 {
 	"id" "15968"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1776 4528 960.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "15969"
@@ -48459,11 +48687,14 @@ entity
 entity
 {
 	"id" "15971"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1776 5216 1024.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "15972"
@@ -53198,11 +53429,14 @@ entity
 entity
 {
 	"id" "16988"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1008 5792 424"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "spawn"
+	"track_number" "0"
 	solid
 	{
 		"id" "16989"
@@ -53365,11 +53599,14 @@ entity
 entity
 {
 	"id" "17033"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "1776 5792 424"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "SPAWN"
+	"track_number" "0"
 	solid
 	{
 		"id" "17034"
@@ -53548,11 +53785,14 @@ entity
 entity
 {
 	"id" "19681"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4080.5 1456 2208.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "19678"
@@ -53630,11 +53870,14 @@ entity
 entity
 {
 	"id" "19705"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-4239.5 1456 2208.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "19706"
@@ -53712,11 +53955,14 @@ entity
 entity
 {
 	"id" "20052"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-5264 -464 992.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "6"
+	"track_number" "0"
 	solid
 	{
 		"id" "20046"
@@ -53870,11 +54116,14 @@ entity
 entity
 {
 	"id" "20093"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-5264 -432 1728.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "6"
+	"track_number" "0"
 	solid
 	{
 		"id" "20075"
@@ -54321,11 +54570,14 @@ entity
 entity
 {
 	"id" "20180"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-5264 -112 160.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "6"
+	"track_number" "0"
 	solid
 	{
 		"id" "20177"
@@ -56904,11 +57156,14 @@ entity
 entity
 {
 	"id" "20899"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-5264 -656 -16"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "6"
+	"track_number" "0"
 	solid
 	{
 		"id" "19365"
@@ -57900,11 +58155,14 @@ entity
 entity
 {
 	"id" "22866"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-6176 48 896.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "7"
+	"track_number" "0"
 	solid
 	{
 		"id" "22863"
@@ -57993,11 +58251,14 @@ entity
 entity
 {
 	"id" "23214"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-6176 448 480.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "7"
+	"track_number" "0"
 	solid
 	{
 		"id" "23202"
@@ -58543,11 +58804,14 @@ entity
 entity
 {
 	"id" "23265"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-6176 464 96"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "7"
+	"track_number" "0"
 	solid
 	{
 		"id" "23260"
@@ -58982,11 +59246,14 @@ entity
 entity
 {
 	"id" "23348"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-6176 -480 1264"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "7"
+	"track_number" "0"
 	solid
 	{
 		"id" "23344"
@@ -59075,11 +59342,14 @@ entity
 entity
 {
 	"id" "23385"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-6176 240 1569"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "7"
+	"track_number" "0"
 	solid
 	{
 		"id" "23380"
@@ -59242,11 +59512,14 @@ entity
 entity
 {
 	"id" "23530"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-6176 -992 2088"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "8"
+	"track_number" "0"
 	solid
 	{
 		"id" "23531"
@@ -59802,11 +60075,14 @@ entity
 entity
 {
 	"id" "23766"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-5280 160 -24"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "7"
+	"track_number" "0"
 	solid
 	{
 		"id" "23767"
@@ -59900,11 +60176,14 @@ entity
 entity
 {
 	"id" "23963"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-7408 -624 1024"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "8"
+	"track_number" "0"
 	solid
 	{
 		"id" "24613"
@@ -60744,11 +61023,14 @@ entity
 entity
 {
 	"id" "24317"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-7856 -368 928.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "8"
+	"track_number" "0"
 	solid
 	{
 		"id" "24304"
@@ -61195,11 +61477,14 @@ entity
 entity
 {
 	"id" "24361"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-7840 -384 608.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "8"
+	"track_number" "0"
 	solid
 	{
 		"id" "24358"
@@ -61277,11 +61562,14 @@ entity
 entity
 {
 	"id" "24408"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-7840 -688 1568.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "8"
+	"track_number" "0"
 	solid
 	{
 		"id" "24404"
@@ -61370,11 +61658,14 @@ entity
 entity
 {
 	"id" "24442"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-7568 -849 1488"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "8"
+	"track_number" "0"
 	solid
 	{
 		"id" "24439"
@@ -61452,11 +61743,14 @@ entity
 entity
 {
 	"id" "24455"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-7568 -1007 1488"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "8"
+	"track_number" "0"
 	solid
 	{
 		"id" "24456"
@@ -63534,11 +63828,14 @@ entity
 entity
 {
 	"id" "26044"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-8640 48 -80"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "9"
+	"track_number" "0"
 	solid
 	{
 		"id" "26041"
@@ -63643,11 +63940,14 @@ entity
 entity
 {
 	"id" "26073"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-8640 -432 3072.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "9"
+	"track_number" "0"
 	solid
 	{
 		"id" "26070"
@@ -63736,11 +64036,14 @@ entity
 entity
 {
 	"id" "26099"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-8640 352 2752.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "9"
+	"track_number" "0"
 	solid
 	{
 		"id" "26096"
@@ -64659,11 +64962,14 @@ entity
 entity
 {
 	"id" "26998"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-8640 -400 1792.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "9"
+	"track_number" "0"
 	solid
 	{
 		"id" "26968"
@@ -65654,11 +65960,14 @@ entity
 entity
 {
 	"id" "27371"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-8640 592 1792.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "9"
+	"track_number" "0"
 	solid
 	{
 		"id" "27358"
@@ -66584,11 +66893,14 @@ entity
 entity
 {
 	"id" "27523"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-7840 -384 -152"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "9"
+	"track_number" "0"
 	solid
 	{
 		"id" "27524"
@@ -66666,11 +66978,14 @@ entity
 entity
 {
 	"id" "27565"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-8640 -896 104"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "10"
+	"track_number" "0"
 	solid
 	{
 		"id" "27566"
@@ -66748,11 +67063,14 @@ entity
 entity
 {
 	"id" "27964"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-9680 752 -48"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "10"
+	"track_number" "0"
 	solid
 	{
 		"id" "27960"
@@ -68437,11 +68755,14 @@ entity
 entity
 {
 	"id" "29453"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-9760 -448 2312"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "cap-tele"
+	"track_number" "0"
 	solid
 	{
 		"id" "29454"
@@ -68519,11 +68840,14 @@ entity
 entity
 {
 	"id" "29483"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-9632 -448 2312"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "cap-tele"
+	"track_number" "0"
 	solid
 	{
 		"id" "29484"
@@ -68601,11 +68925,14 @@ entity
 entity
 {
 	"id" "30178"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "-9680 432 608.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "10"
+	"track_number" "0"
 	solid
 	{
 		"id" "30175"
@@ -77564,11 +77891,14 @@ entity
 entity
 {
 	"id" "40224"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "4416 1040 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "10"
+	"track_number" "0"
 	solid
 	{
 		"id" "40221"
@@ -77646,11 +77976,14 @@ entity
 entity
 {
 	"id" "40246"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "4192 1040 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "9"
+	"track_number" "0"
 	solid
 	{
 		"id" "40247"
@@ -77728,11 +78061,14 @@ entity
 entity
 {
 	"id" "40249"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "3968 1040 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "8"
+	"track_number" "0"
 	solid
 	{
 		"id" "40250"
@@ -77810,11 +78146,14 @@ entity
 entity
 {
 	"id" "40265"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "3664 1040 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "7"
+	"track_number" "0"
 	solid
 	{
 		"id" "40266"
@@ -77892,11 +78231,14 @@ entity
 entity
 {
 	"id" "40268"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "3504 1040 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "6"
+	"track_number" "0"
 	solid
 	{
 		"id" "40269"
@@ -77974,11 +78316,14 @@ entity
 entity
 {
 	"id" "40271"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "3344 1040 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "5"
+	"track_number" "0"
 	solid
 	{
 		"id" "40272"
@@ -78056,11 +78401,14 @@ entity
 entity
 {
 	"id" "40274"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "3184 1040 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "4"
+	"track_number" "0"
 	solid
 	{
 		"id" "40275"
@@ -78138,11 +78486,14 @@ entity
 entity
 {
 	"id" "40277"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "2432 1040 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "1"
+	"track_number" "0"
 	solid
 	{
 		"id" "40278"
@@ -78220,11 +78571,14 @@ entity
 entity
 {
 	"id" "40280"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "2656 1040 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "2"
+	"track_number" "0"
 	solid
 	{
 		"id" "40281"
@@ -78302,11 +78656,14 @@ entity
 entity
 {
 	"id" "40283"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "2880 1040 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "3"
+	"track_number" "0"
 	solid
 	{
 		"id" "40284"
@@ -78384,11 +78741,14 @@ entity
 entity
 {
 	"id" "40725"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "2416 32 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b1"
+	"track_number" "0"
 	solid
 	{
 		"id" "40726"
@@ -78466,11 +78826,14 @@ entity
 entity
 {
 	"id" "40745"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "4432 32 -47.5"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "b2"
+	"track_number" "0"
 	solid
 	{
 		"id" "40746"
@@ -79013,11 +79376,14 @@ entity
 entity
 {
 	"id" "40887"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "3424 32 -56"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "1"
+	"track_number" "0"
 	solid
 	{
 		"id" "40888"
@@ -80748,11 +81114,14 @@ entity
 entity
 {
 	"id" "45586"
-	"classname" "trigger_teleport"
+	"classname" "trigger_momentum_teleport"
 	"origin" "3424 -1039.5 144"
+	"resetang" "1"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"stop" "1"
 	"target" "spawn"
+	"track_number" "0"
 	solid
 	{
 		"id" "45587"
@@ -80832,8 +81201,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3350.79 -709.265 810.687]"
-		"look" "[3343.1 -599.391 787.275]"
+		"position" "[1596.17 3941.21 6633.39]"
+		"look" "[1616.72 3863.43 6554.61]"
 	}
 }
 cordon
